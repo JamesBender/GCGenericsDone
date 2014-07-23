@@ -1,17 +1,19 @@
 ﻿using System;
-using BasicGenerics.Entities;
-using BasicGenerics.WithoutGenerics;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace BasicGenerics
+namespace WithoutGenerics
 {
     class Program
     {
         static void Main(string[] args)
         {
             //Create all the repos I need
-            var personRepo = new Repository<Person>();
-            var companyRepo = new Repository<Company>();
-            var orderRepo = new Repository<Order>();
+            var personRepo = new PersonRepository();
+            var companyRepo = new CompanyRepository();
+            var orderRepo = new OrderRepository();
 
             //Get some entities
             var person = personRepo.GetById(1);

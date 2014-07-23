@@ -1,4 +1,4 @@
-﻿namespace BasicGenerics.Entities
+﻿namespace WithoutGenerics.Entities
 {
     public class Order : Entity
     {
