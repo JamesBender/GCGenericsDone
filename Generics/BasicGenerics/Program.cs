@@ -6,7 +6,7 @@ namespace BasicGenerics
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //Create all the repos I need
             var personRepo = new Repository<Person>();

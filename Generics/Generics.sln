@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_WithoutGenerics", "0_With
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutGenerics", "WithoutGenerics\WithoutGenerics.csproj", "{DA73EC96-F819-464A-A149-AA0E47974F5F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_MethodLevelGenerics", "2_MethodLevelGenerics", "{4B26680D-7D06-4F44-8EF0-3D070A6FD346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodLevelGenerics", "MethodLevelGenerics\MethodLevelGenerics.csproj", "{A078E05D-57E5-4D8D-8588-55776004517A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{DA73EC96-F819-464A-A149-AA0E47974F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA73EC96-F819-464A-A149-AA0E47974F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA73EC96-F819-464A-A149-AA0E47974F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A078E05D-57E5-4D8D-8588-55776004517A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A078E05D-57E5-4D8D-8588-55776004517A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A078E05D-57E5-4D8D-8588-55776004517A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A078E05D-57E5-4D8D-8588-55776004517A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{95793F0B-8850-4D97-B47B-A0A0B4FC19C7} = {07800E01-16C9-4459-98EB-15DA6720B818}
 		{DA73EC96-F819-464A-A149-AA0E47974F5F} = {9D6F2519-AB79-49EE-BABC-E8A475C9691B}
+		{A078E05D-57E5-4D8D-8588-55776004517A} = {4B26680D-7D06-4F44-8EF0-3D070A6FD346}
 	EndGlobalSection
 EndGlobal

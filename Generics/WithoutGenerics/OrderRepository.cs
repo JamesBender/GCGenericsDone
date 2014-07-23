@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using WithoutGenerics.Entities;
+﻿using WithoutGenerics.Entities;
 
 namespace WithoutGenerics
 {
     public class OrderRepository
     {
-                private readonly DataBase _dataBase;
+        private readonly DataBase _dataBase;
 
         public OrderRepository()
         {
@@ -22,13 +21,5 @@ namespace WithoutGenerics
             var order = _dataBase.GetById(id) as Order;
             return order;
         }
-
-        public IList<Order> GetAll
-        {
-            get
-            {
-                return _dataBase.GetAllOrder();
-            }
-        }  
     }
 }

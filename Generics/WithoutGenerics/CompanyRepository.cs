@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using WithoutGenerics.Entities;
+﻿using WithoutGenerics.Entities;
 
 namespace WithoutGenerics
 {
@@ -22,13 +21,5 @@ namespace WithoutGenerics
             var company = _dataBase.GetById(id) as Company;
             return company;
         }
-
-        public IList<Company> GetAll
-        {
-            get
-            {
-                return _dataBase.GetAllCompanies();
-            }
-        } 
     }
 }

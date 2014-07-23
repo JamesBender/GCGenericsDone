@@ -1,8 +1,8 @@
-﻿using BasicGenerics.Entities;
+﻿using MethodLevelGenerics.Entities;
 
-namespace BasicGenerics.WithoutGenerics
+namespace MethodLevelGenerics
 {
-    public class Repository <T> where T : Entity
+    public class Repository
     {
         private readonly DataBase _dataBase;
 
@@ -11,14 +11,14 @@ namespace BasicGenerics.WithoutGenerics
             _dataBase = new DataBase();
         }
 
-        public int Save(T entity)
+        public int Save<T>(T entity) where T : Entity
         {
             return _dataBase.Save(entity);
         }
 
-        public T GetById(int id)
+        public T GetById<T>(int id) where T : Entity
         {
             return _dataBase.GetById(id) as T;
-        }
+        }        
     }
 }

@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using WithoutGenerics.Entities;
+﻿using WithoutGenerics.Entities;
 
 namespace WithoutGenerics
 {
@@ -21,14 +20,6 @@ namespace WithoutGenerics
         {
             var person = _dataBase.GetById(id) as Person;
             return person;
-        }
-
-        public IList<Person> GetAll
-        {
-            get
-            {
-                return _dataBase.GetAllPeople();
-            }
         }
     }
 }
