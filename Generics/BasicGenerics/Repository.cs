@@ -1,6 +1,6 @@
 ﻿using BasicGenerics.Entities;
 
-namespace BasicGenerics.WithoutGenerics
+namespace BasicGenerics
 {
     public class Repository <T> where T : Entity
     {

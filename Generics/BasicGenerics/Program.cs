@@ -1,6 +1,5 @@
 ﻿using System;
 using BasicGenerics.Entities;
-using BasicGenerics.WithoutGenerics;
 
 namespace BasicGenerics
 {
